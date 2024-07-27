@@ -1,0 +1,10 @@
+a=open("Name.txt","w")
+a.write("Suve\n")
+a.write("Suriya\n")
+a.write("Jey\n")
+a.write("Daru\n")
+a.write("Fizz\n")
+a.close()
+
+a=open("Name.txt","r")
+print(a.read())
